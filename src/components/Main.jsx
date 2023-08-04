@@ -1,13 +1,13 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { useRef, useState, useLayoutEffect } from "react";
+import { useRef, useState, useLayoutEffect, useEffect } from "react";
 
 const Main = () => {
   const imageRef = useRef(null);
   const [overlayHeight, setOverlayHeight] = useState(0);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const setHeight = () => {
       if (imageRef.current) {
         const imageHeight = imageRef.current.clientHeight;
