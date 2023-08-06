@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { useRef, useState, useLayoutEffect, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const Main = () => {
   const imageRef = useRef(null);
