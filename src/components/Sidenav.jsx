@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
-import { Link, NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
