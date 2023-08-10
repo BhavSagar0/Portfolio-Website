@@ -61,8 +61,12 @@ const Main = () => {
           </h2>
           <div className="flex justify-between pt-6 sm:max-w-[200px] max-w-[150px] w-full">
             <FaTwitter size={20} className="cursor-pointer" />
-            <FaInstagram size={20} className="cursor-pointer" />
-            <FaLinkedinIn size={20} className="cursor-pointer" />
+            <a href="https://www.instagram.com/bhav.sagar/" target="_blank">
+              <FaInstagram size={20} className="cursor-pointer" />
+            </a>
+            <a href="https://www.linkedin.com/in/bhavsagar/" target="_blank">
+              <FaLinkedinIn size={20} className="cursor-pointer" />
+            </a>
           </div>
         </div>
       </div>
